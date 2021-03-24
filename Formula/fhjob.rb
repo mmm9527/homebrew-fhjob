@@ -4,9 +4,9 @@
 class Fhjob < Formula
     desc "A commandline tool for easily deploy fuhsi's analysis job"
     homepage "https://github.com/jy00464346/fhjob"
-    url "https://github.com/jy00464346/fhjob/releases/download/v0.2.0/fhjob-darwin.tar.gz"
-    sha256 "fff201a334a08bfd1e75e0d0ec493a9bac282ddad6b9ab97895c2539df769bd6"
-    version "0.2.0"
+    url "https://github.com/jy00464346/fhjob_release/releases/download/v1.0.0/fhjob-darwin.tar.gz"
+    sha256 "c2b82afac3363bbe492ef58e3f3f808c254cf982df6bf5096efef72ddea8444f"
+    version "1.0.0"
 
     def install
       bin.install "fhjob"
